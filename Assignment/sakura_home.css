@@ -1,0 +1,251 @@
+@font-face {
+  font-family: title_font;
+  src: url('Kobajeon-w18YP.otf') format('woff2'),
+       url('Kobajeon-w18YP.otf') format('woff');
+
+}
+@font-face {
+  font-family: text_font;
+  src: url('CrispyFoodRegular-6YM5D.ttf') format('woff2'),
+       url('CrispyFoodRegular-6YM5D.ttf') format('woff');
+ 
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  margin-top: 120px;
+  z-index: 99;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  overflow-x: hidden;
+  
+  background-color: rgb(48, 48, 48);
+  color: white;
+  letter-spacing: 1px;
+ 
+}
+
+.nav {
+    font-family: text_font, sans-serif;
+    z-index: 100;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left:0;
+    background-color: white;
+    box-shadow: -1px 1px 8px black;
+    
+  }
+
+ 
+  li {
+    float: right;
+    
+  }
+  li img {
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+  }
+  
+  li a {
+    font-family: text_font, sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+ 
+  li a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    font-size: 20px;
+    
+    
+  } 
+  .welcome {
+    display: inline-flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 130px;
+  }
+  .sushi1 {
+    width: 60%;
+    height: auto;
+  }
+  .sushi1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    width: 70%;
+    height: auto;
+  }
+  .welcome_info {
+    width: 40%;
+    height: auto;
+  }
+  .welcome_info h1 {
+    letter-spacing: 1px;
+    font-family: title_font, sans-serif;
+   margin-top: -1px;
+   font-size: 50px;
+  }
+  .welcome_info p {
+    font-family: text_font, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 29px;
+    font-size: 15px;
+    width: 70%;
+  }
+  .button{
+    font-family: text_font, sans-serif;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: #87a38d;
+    cursor: pointer;
+  }
+
+  .location {
+    letter-spacing: 1px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #E29B9C;
+    vertical-align:middle;
+  }
+
+  .left_location {
+    vertical-align:middle;
+    width: 50%;
+    text-align: center;
+    padding-left: 7%;
+    height: 50%;
+  }
+  .left_location h1 {
+    font-family: title_font, sans-serif;
+    font-size: 50px;
+  }
+
+  
+  
+  .right_location {
+    width: 50%;
+  }
+
+  .right_location img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 70%;
+    height: auto;
+  }
+
+  .menu {
+    letter-spacing: 1px;
+    font-family: text_font, sans-serif;
+    color: black;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: white;
+  }
+  .menu_pics {
+    display: inline-flex;
+    padding-bottom: 80px;
+  }
+
+  .pic1 {
+    text-align: center;
+    width: 33.3%;
+  }
+
+  .pic2 {
+    text-align: center;
+    width: 33.3%;
+  }
+  .pic3 {
+    text-align: center;
+    width: 33.3%;
+  }
+  .pic1 img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 70%;
+    height: auto;
+  }
+  .pic2 img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 70%;
+    height: auto;
+  }
+  .pic3 img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 70%;
+    height: auto;
+  }
+
+  .chef {
+    text-align: center;
+  }
+
+  .reviews {
+    letter-spacing: 1px;
+    font-family: text_font, sans-serif;
+    color: white;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 350px;
+  }
+  .reviews h1 {
+    font-family: title_font, sans-serif;
+  }
+  .review {
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  .review p {
+    color: black;
+    text-align: center;
+  }
+
+  
+
+
